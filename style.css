@@ -1,0 +1,384 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+h1 {
+  text-align: center;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+label, input, textarea {
+  display: block;
+  margin-bottom: 10px;
+}
+
+input[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+html {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+
+#card-element {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#card-errors {
+  color: #dc3545;
+  margin-top: 10px;
+}
+
+#submit-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#submit-button:hover {
+  background-color: #45a049;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+
+#card-element {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#card-errors {
+  color: #dc3545;
+  margin-top: 10px;
+}
+
+#submit-button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+#submit-button:hover {
+  background-color: #45a049;
+}
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 10px;
+}
+
+h1, h2 {
+  margin-bottom: 10px;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.form-row {
+  margin-bottom: 20px;
+}
+
+#card-element {
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+#card-errors {
+  color: #dc3545;
+  margin-top: 10px;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #232f3e; /* Dark background color */
+    color: #ffffff; /* White text color */
+    text-align: center;
+}
+
+.container {
+    max-width: 400px;
+    margin: 100px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #2ecc71; /* Emerald Green background color */
+}
+
+h1 {
+    font-size: 36px;
+    margin: 0;
+    color: #ffffff; /* White text color */
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-size: 18px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 1px solid #2ecc71; /* Emerald Green border */
+    border-radius: 5px;
+    background-color: #ffffff; /* White background color */
+    color: #232f3e; /* Dark text color */
+}
+
+.button {
+    display: inline-block;
+    background-color: #2ecc71; /* Emerald Green background color */
+    color: #ffffff; /* White text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.button:hover {
+    background-color: #1f8c57; /* Darker shade of Emerald Green on hover */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f; /* Dark background color */
+    color: #ffffff; /* White text color */
+}
+
+nav {
+    background-color: #232f3e; /* Darker background color for the navigation bar */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #2ecc71; /* Emerald Green background color */
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.product {
+    margin-bottom: 40px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+p {
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.buy-button {
+    display: inline-block;
+    background-color: #ffffff;
+    color: #232f3e; /* Dark text color */
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.buy-button:hover {
+    background-color: #cccccc;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1f1f1f; /* Dark background color */
+    color: #ffffff; /* White text color */
+}
+
+nav {
+    background-color: #2ecc71; /* Emerald Green background color for the navigation bar */
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+}
+
+li {
+    margin-right: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #2ecc71; /* Emerald Green background color */
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+
+.product-card {
+    background-color: #ffffff; /* White background color for the product card */
+    border-radius: 10px;
+    padding: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Box shadow for a subtle lift */
+}
+
+h2.black-text {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #000000; /* Black text color */
+}
+
+p.black-text {
+    font-size: 16px;
+    margin: 0;
+    color: #000000; /* Black text color */
+}

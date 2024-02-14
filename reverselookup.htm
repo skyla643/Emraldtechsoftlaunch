@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reverse Phone Number Lookup</title>
+  <h2>Made by Emrald co.</h2>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .form-group {
+      margin-bottom: 10px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .form-group input[type="text"] {
+      width: 100%;
+      padding: 5px;
+      font-size: 16px;
+    }
+    .form-group button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    .result-container {
+      margin-top: 20px;
+    }
+    .result-container p {
+      margin-bottom: 5px;
+    }
+  </style>
+  <script>
+    function reverseLookup() {
+      var phoneNumber = document.getElementById('phone-number').value;
+
+      // You can implement the reverse phone lookup logic here
+      // Use AJAX or fetch API to send a request to your server and handle the response
+
+      // For demonstration purposes, we'll just display a dummy result
+      var resultContainer = document.getElementById('result-container');
+      resultContainer.innerHTML = '<p>Name: John Doe</p><p>Location: New York, USA</p>';
+    }
+  </script>
+</head>
+<body>
+  <h1>Reverse Phone Number Lookup</h1>
+  <div class="form-container">
+    <div class="form-group">
+      <label for="phone-number">Enter phone number:</label>
+      <input type="text" id="phone-number" placeholder="E.g., +1234567890" required>
+    </div>
+    <button onclick="reverseLookup()">Lookup</button>
+  </div>
+  <div class="result-container" id="result-container"></div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reverse Email Lookup</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .form-group {
+      margin-bottom: 10px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .form-group input[type="email"] {
+      width: 100%;
+      padding: 5px;
+      font-size: 16px;
+    }
+    .form-group button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    .result-container {
+      margin-top: 20px;
+    }
+    .result-container p {
+      margin-bottom: 5px;
+    }
+  </style>
+  <script>
+    function reverseLookup() {
+      var email = document.getElementById('email').value;
+
+      // You can implement the reverse email lookup logic here
+      // Use AJAX or fetch API to send a request to your server and handle the response
+
+      // For demonstration purposes, we'll just display a dummy result
+      var resultContainer = document.getElementById('result-container');
+      resultContainer.innerHTML = '<p>Name: John Doe</p><p>Location: New York, USA</p>';
+    }
+  </script>
+</head>
+<body>
+  <h1>Reverse Email Lookup</h1>
+  <div class="form-container">
+    <div class="form-group">
+      <label for="email">Enter email address:</label>
+      <input type="email" id="email" placeholder="E.g., john@example.com" required>
+    </div>
+    <button onclick="reverseLookup()">Lookup</button>
+  </div>
+  <div class="result-container" id="result-container"></div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Internet Vulnerability Scan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .form-group {
+      margin-bottom: 10px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .form-group input[type="text"],
+    .form-group input[type="number"] {
+      width: 100%;
+      padding: 5px;
+      font-size: 16px;
+    }
+    .form-group textarea {
+      width: 100%;
+      padding: 5px;
+      font-size: 16px;
+      resize: vertical;
+    }
+    .form-group button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    .result-container {
+      margin-top: 20px;
+    }
+    .result-container p {
+      margin-bottom: 5px;
+    }
+  </style>
+  <script>
+    function performScan() {
+      var target = document.getElementById('target').value;
+      var options = {
+        depth: document.getElementById('depth').value,
+        timeout: document.getElementById('timeout').value,
+        // Additional options as needed
+      };
+
+      // You can implement the vulnerability scanning logic on the server side
+      // Use AJAX or fetch API to send a request to your server and handle the response
+
+      // For demonstration purposes, we'll just display a dummy result
+      var resultContainer = document.getElementById('result-container');
+      resultContainer.innerHTML = '<p>Scan result:</p><p>No vulnerabilities found.</p>';
+    }
+  </script>
+</head>
+<body>
+  <h1>Internet Vulnerability Scan</h1>
+  <div class="form-container">
+    <div class="form-group">
+      <label for="target">Target URL or IP:</label>
+      <input type="text" id="target" placeholder="E.g., example.com" required>
+    </div>
+    <div class="form-group">
+      <label for="depth">Scan Depth:</label>
+      <input type="number" id="depth" min="1" max="10" value="3" required>
+    </div>
+    <div class="form-group">
+      <label for="timeout">Scan Timeout (seconds):</label>
+      <input type="number" id="timeout" min="1" max="600" value="30" required>
+    </div>
+    <!-- Additional options as needed -->
+    <button onclick="performScan()">Start Scan</button>
+  </div>
+  <div class="result-container" id="result-container"></div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reverse Phone Number Lookup</title>
+  <h2>Made by Emrald co.</h2>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .form-group {
+      margin-bottom: 10px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .form-group input[type="text"] {
+      width: 100%;
+      padding: 5px;
+      font-size: 16px;
+    }
+    .form-group button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    .result-container {
+      margin-top: 20px;
+    }
+    .result-container p {
+      margin-bottom: 5px;
+    }
+  </style>
+  <script>
+    function reverseLookup() {
+      var phoneNumber = document.getElementById('phone-number').value;
+
+      // You can implement the reverse phone lookup logic here
+      // Use AJAX or fetch API to send a request to your server and handle the response
+
+      // For demonstration purposes, we'll just display a dummy result
+      var resultContainer = document.getElementById('result-container');
+      resultContainer.innerHTML = '<p>Name: John Doe</p><p>Location: New York, USA</p>';
+    }
+  </script>
+</head>
+<body>
+  <h1>Reverse Phone Number Lookup</h1>
+  <div class="form-container">
+    <div class="form-group">
+      <label for="phone-number">Enter phone number:</label>
+      <input type="text" id="phone-number" placeholder="E.g., +1234567890" required>
+    </div>
+    <button onclick="reverseLookup()">Lookup</button>
+  </div>
+  <div class="result-container" id="result-container"></div>
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Reverse Email Lookup</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .form-group {
+      margin-bottom: 10px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .form-group input[type="email"] {
+      width: 100%;
+      padding: 5px;
+      font-size: 16px;
+    }
+    .form-group button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    .result-container {
+      margin-top: 20px;
+    }
+    .result-container p {
+      margin-bottom: 5px;
+    }
+  </style>
+  <script>
+    function reverseLookup() {
+      var email = document.getElementById('email').value;
+
+      // You can implement the reverse email lookup logic here
+      // Use AJAX or fetch API to send a request to your server and handle the response
+
+      // For demonstration purposes, we'll just display a dummy result
+      var resultContainer = document.getElementById('result-container');
+      resultContainer.innerHTML = '<p>Name: John Doe</p><p>Location: New York, USA</p>';
+    }
+  </script>
+</head>
+<body>
+  <h1>Reverse Email Lookup</h1>
+  <div class="form-container">
+    <div class="form-group">
+      <label for="email">Enter email address:</label>
+      <input type="email" id="email" placeholder="E.g., john@example.com" required>
+    </div>
+    <button onclick="reverseLookup()">Lookup</button>
+  </div>
+  <div class="result-container" id="result-container"></div>
+</body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Internet Vulnerability Scan</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 20px;
+    }
+    h1 {
+      text-align: center;
+    }
+    .form-container {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    .form-group {
+      margin-bottom: 10px;
+    }
+    .form-group label {
+      display: block;
+      margin-bottom: 5px;
+    }
+    .form-group input[type="text"],
+    .form-group input[type="number"] {
+      width: 100%;
+      padding: 5px;
+      font-size: 16px;
+    }
+    .form-group textarea {
+      width: 100%;
+      padding: 5px;
+      font-size: 16px;
+      resize: vertical;
+    }
+    .form-group button {
+      padding: 10px 20px;
+      font-size: 16px;
+    }
+    .result-container {
+      margin-top: 20px;
+    }
+    .result-container p {
+      margin-bottom: 5px;
+    }
+  </style>
+  <script>
+    function performScan() {
+      var target = document.getElementById('target').value;
+      var options = {
+        depth: document.getElementById('depth').value,
+        timeout: document.getElementById('timeout').value,
+        // Additional options as needed
+      };
+
+      // You can implement the vulnerability scanning logic on the server side
+      // Use AJAX or fetch API to send a request to your server and handle the response
+
+      // For demonstration purposes, we'll just display a dummy result
+      var resultContainer = document.getElementById('result-container');
+      resultContainer.innerHTML = '<p>Scan result:</p><p>No vulnerabilities found.</p>';
+    }
+  </script>
+</head>
+<body>
+  <h1>Internet Vulnerability Scan</h1>
+  <div class="form-container">
+    <div class="form-group">
+      <label for="target">Target URL or IP:</label>
+      <input type="text" id="target" placeholder="E.g., example.com" required>
+    </div>
+    <div class="form-group">
+      <label for="depth">Scan Depth:</label>
+      <input type="number" id="depth" min="1" max="10" value="3" required>
+    </div>
+    <div class="form-group">
+      <label for="timeout">Scan Timeout (seconds):</label>
+      <input type="number" id="timeout" min="1" max="600" value="30" required>
+    </div>
+    <!-- Additional options as needed -->
+    <button onclick="performScan()">Start Scan</button>
+  </div>
+  <div class="result-container" id="result-container"></div>
+</body>
+</html>
